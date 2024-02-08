@@ -23,9 +23,21 @@
             <label for="correo">Correo:</label>
             <input type="email" id="correo" name="correo">
         </p>
+        <label for="comentario">Comentario:</label>
         <p>
-            <button type="submit">Enviar</button>
+            <textarea id="comentario" name="comentario" rows="4" cols="35"></textarea>
         </p>
+        <br>
+            <select name="ciudad" id="ciudad">
+                <option value="guadalajara">Guadalajara</option>
+                <option value="zapopan">Zapopan</option>
+                <option value="tonala">Tonalá</option>
+                <option value="otra">Otra</option>
+                </select>
+        </br>
+        <br>
+            <button type="submit">Enviar</button>
+        </br>
     </form>
 </body>
 </html>
